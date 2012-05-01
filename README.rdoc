@@ -1,0 +1,17 @@
+= Sl3 (or, SearchLogic 3)
+
+This project rocks and uses MIT-LICENSE.
+
+I work at TaskRabbit and we leverage the awesome SearchLogic gem. But then one day we decided we wanted to upgrade to Rails 3 and credit red-hot tears of sadness when we found no Rails 3 compatible version of SearchLogic was available.
+
+We searched (logically) high and low for API-compatible replacements but found none.
+
+Eventually, we had a choice to make: either write a *new* fancy shmancy SearchLogic gem or hunt down every usage (in our rather large codebase) of the ubiquotous and powerful SearchLogic syntax and replace it with vanilla ActiveRecord syntax.
+
+That conversation went kinda like this:
+
+Me: "Well there's not really any appropriate replacement for SearchLogic that is Rails 3 compatible"
+Bossman: "That sucks. I love SearchLogic. It's so magical."
+Me: "I could rewrite it
+
+... To be continued!
